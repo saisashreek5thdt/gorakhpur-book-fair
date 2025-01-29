@@ -7,7 +7,15 @@ import {
   AboutEvent,
   VideoSection,
   FeatureSection,
-  EventSchedule
+  EventSchedule,
+  CounterArea,
+  PricingSection,
+  SpeakersSection,
+  EventRegister,
+  JoinEvent,
+  Testimonials,
+  Gallery,
+  Sponsors
 } from "./Components";
 
 export default function Home() {
@@ -42,6 +50,32 @@ export default function Home() {
         {/* Events Schedule Start */}
         <EventSchedule />
         {/* Events Schedule End */}
+        {/* Counter Area Start */}
+        <CounterArea />
+        {/* Counter Area End */}
+        {/* Pricing Section Start */}
+        <PricingSection />
+        {/* Pricing Section End */}
+        {/* Speakers Section Start */}
+        <SpeakersSection />
+        {/* Speakers Section End */}
+        {/* Event Register Start */}
+        <EventRegister />
+        {/* Event Register End */}
+        {/* Join Event Start */}
+        <JoinEvent />
+        {/* Join Event End */}
+        {/* Testimonials Start */}
+        <Testimonials />
+        {/* Testimonials End */}
+        {/* Gallery Start */}
+        <Gallery />
+        {/* Gallery End */}
+        {/* Sponsors Start */}
+        <Sponsors />
+        {/* Sponsors End */}
+        {/* Venue Start */}
+        {/* Venue End */}
       </main>
       {/* Main Content Stops */}
     </>

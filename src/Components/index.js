@@ -7,3 +7,11 @@ export { default as AboutEvent } from "./AboutEvent";
 export { default as VideoSection } from "./VideoSection";
 export { default as FeatureSection } from "./FeatureSection";
 export { default as EventSchedule } from "./EventSchedule";
+export { default as CounterArea } from "./CounterArea";
+export { default as PricingSection } from "./PricingSection";
+export { default as SpeakersSection } from "./SpeakersSection";
+export { default as EventRegister } from "./EventRegister";
+export { default as JoinEvent } from "./JoinEvent";
+export { default as Testimonials } from "./Testimonials";
+export { default as Gallery } from "./Gallery";
+export { default as Sponsors } from "./Sponsors"
