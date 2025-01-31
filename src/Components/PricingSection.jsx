@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import priceImg from "../assets/img/shape/03.png";
 
 export default function PricingSection() {
@@ -58,9 +59,9 @@ export default function PricingSection() {
                   </ul>
                 </div>
                 <div className="pricing-btn-wrap">
-                  <a href="#" className="theme-btn">
+                  <Link to="/" className="theme-btn">
                     Purchase Now <i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -101,9 +102,9 @@ export default function PricingSection() {
                   </ul>
                 </div>
                 <div className="pricing-btn-wrap">
-                  <a href="#" className="theme-btn">
+                  <Link to="/" className="theme-btn">
                     Purchase Now <i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -141,9 +142,9 @@ export default function PricingSection() {
                   </ul>
                 </div>
                 <div className="pricing-btn-wrap">
-                  <a href="#" className="theme-btn">
+                  <Link to="/" className="theme-btn">
                     Purchase Now <i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

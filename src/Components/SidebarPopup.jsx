@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import sidebarLogo from "../assets/img/logo/logo.png"
 
 export default function SidebarPopup() {
@@ -25,46 +26,46 @@ export default function SidebarPopup() {
               <ul>
                 <li>
                   <h6>Email</h6>
-                  <a href="/cdn-cgi/l/email-protection#d6bfb8b0b996b3aeb7bba6bab3f8b5b9bb">
+                  <Link to="mailto:info@gorakhpurbookfair.com">
                     <i className="far fa-envelope"></i>
                     <span
                       className="__cf_email__"
                       data-cfemail="771e19111837120f161a071b125914181a"
                     >
-                      [email&#160;protected]
+                      info@gorakhpurbookfair.com
                     </span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <h6>Phone</h6>
-                  <a href="tel:+21236547898">
+                  <Link to="tel:+21236547898">
                     <i className="fa fa-solid fa-phone-volume"></i>+2 123 654
                     7898
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <h6>Address</h6>
-                  <a href="#">
+                  <Link to="/">
                     <i className="fa fa-solid fa-location-dot"></i>25/B Milford
                     Road, New York
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
             <div className="sidebar-social">
               <h4>Follow Us</h4>
-              <a href="#">
+              <Link to="/">
                 <i className="fab fa-facebook"></i>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/">
                 <i className="fab fa-x-twitter"></i>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/">
                 <i className="fab fa-instagram"></i>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/">
                 <i className="fab fa-linkedin"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import icon1 from "../assets/img/icon/speaker.svg";
 import icon2 from "../assets/img/icon/learn.svg";
 import icon3 from "../assets/img/icon/meet.svg";
@@ -24,9 +25,9 @@ export default function FeatureSection() {
                     It is a long established fact that a reader will be
                     distracted.
                   </p>
-                  <a href="contact.html" className="theme-btn mt-20">
+                  <Link to="/" className="theme-btn mt-20">
                     Learn More<i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
@@ -43,9 +44,9 @@ export default function FeatureSection() {
                     It is a long established fact that a reader will be
                     distracted.
                   </p>
-                  <a href="contact.html" className="theme-btn mt-20">
+                  <Link to="/" className="theme-btn mt-20">
                     Learn More<i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
@@ -62,9 +63,9 @@ export default function FeatureSection() {
                     It is a long established fact that a reader will be
                     distracted.
                   </p>
-                  <a href="contact.html" className="theme-btn mt-20">
+                  <Link to="/" className="theme-btn mt-20">
                     Learn More<i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
@@ -81,9 +82,9 @@ export default function FeatureSection() {
                     It is a long established fact that a reader will be
                     distracted.
                   </p>
-                  <a href="contact.html" className="theme-btn mt-20">
+                  <Link to="/" className="theme-btn mt-20">
                     Learn More<i className="fas fa-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

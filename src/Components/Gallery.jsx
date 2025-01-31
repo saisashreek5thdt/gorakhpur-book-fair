@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import gallery1 from "../assets/img/gallery/01.jpg";
 import gallery2 from "../assets/img/gallery/02.jpg";
 import gallery3 from "../assets/img/gallery/03.jpg";
@@ -38,12 +39,12 @@ export default function Gallery() {
                   >
                     <div className="gallery-img">
                       <img src={gallery2} alt="" />
-                      <a
+                      <Link
                         className="popup-img gallery-link"
-                        href={gallery2}
+                        to={gallery2}
                       >
                         <i className="fal fa-plus"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -54,12 +55,12 @@ export default function Gallery() {
                   >
                     <div className="gallery-img">
                       <img src={gallery3} alt="" />
-                      <a
+                      <Link
                         className="popup-img gallery-link"
-                        href={gallery3}
+                        to={gallery3}
                       >
                         <i className="fal fa-plus"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -70,12 +71,12 @@ export default function Gallery() {
                   >
                     <div className="gallery-img">
                       <img src={gallery4} alt="" />
-                      <a
+                      <Link
                         className="popup-img gallery-link"
-                        href={gallery4}
+                        to={gallery4}
                       >
                         <i className="fal fa-plus"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -85,12 +86,12 @@ export default function Gallery() {
               <div className="gallery-item wow fadeInUp" data-wow-delay=".25s">
                 <div className="gallery-img">
                   <img src={gallery1} alt="" />
-                  <a
+                  <Link
                     className="popup-img gallery-link"
-                    href={gallery1}
+                    to={gallery1}
                   >
                     <i className="fal fa-plus"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

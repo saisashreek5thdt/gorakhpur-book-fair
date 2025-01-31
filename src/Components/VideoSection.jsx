@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import videoBG from "../assets/img/video/01.jpg";
 
 export default function VideoSection() {
@@ -23,19 +24,19 @@ export default function VideoSection() {
                         <span>creative</span> thinking.
                       </h2>
                     </div>
-                    <a href="#" className="theme-btn mt-30">
+                    <Link to="/" className="theme-btn mt-30">
                       Learn More <i className="fas fa-arrow-right"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-lg-4">
                   <div className="video-wrapper">
-                    <a
+                    <Link
                       className="play-btn popup-youtube"
-                      href="https://www.youtube.com/watch?v=ckHzmP1evNU"
+                      to="https://www.youtube.com/watch?v=ckHzmP1evNU"
                     >
                       <i className="fas fa-play"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

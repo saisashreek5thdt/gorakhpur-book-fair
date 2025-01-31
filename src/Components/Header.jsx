@@ -20,9 +20,9 @@ export default function Header() {
                           </Link>
                         </li>
                         <li>
-                          <Link to="mailto:eventinfo@gorakhpurbookfair.com">
+                          <Link to="mailto:info@gorakhpurbookfair.com">
                             <i className="fa fa-regular fa-envelope"></i>
-                            &nbsp;eventinfo@gorakhpurbookfair.com
+                            &nbsp;info@gorakhpurbookfair.com
                           </Link>
                         </li>
                         <li>

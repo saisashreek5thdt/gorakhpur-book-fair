@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import eventBG from "../assets/img/cta/01.jpg";
 
 export default function EventRegister() {
@@ -19,9 +20,9 @@ export default function EventRegister() {
                   by the readable <br />
                   content of a page when looking at its layout.
                 </p>
-                <a href="#" className="theme-btn">
+                <Link to="/" className="theme-btn">
                   Register Now<i className="fas fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
