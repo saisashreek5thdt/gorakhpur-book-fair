@@ -15,3 +15,7 @@ export { default as JoinEvent } from "./JoinEvent";
 export { default as Testimonials } from "./Testimonials";
 export { default as Gallery } from "./Gallery";
 export { default as Sponsors } from "./Sponsors"
+export { default as VenueInfo } from "./VenueInfo";
+export { default as RegisterForm } from "./RegisterForm";
+export { default as BlogSection } from "./BlogSection";
+export { default as SocialImages } from "./SocialImages";

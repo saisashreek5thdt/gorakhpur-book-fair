@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   Header,
   HeaderPopup,
@@ -15,8 +16,13 @@ import {
   JoinEvent,
   Testimonials,
   Gallery,
-  Sponsors
+  Sponsors,
+  VenueInfo,
+  RegisterForm,
+  BlogSection,
+  SocialImages
 } from "./Components";
+import FooterInfo from "./Components/Footer/FooterInfo";
 
 export default function Home() {
   return (
@@ -75,9 +81,25 @@ export default function Home() {
         <Sponsors />
         {/* Sponsors End */}
         {/* Venue Start */}
+        <VenueInfo />
         {/* Venue End */}
+        {/* Register Form Start */}
+        <RegisterForm />
+        {/* Register Form End */}
+        {/* Blog Section Start */}
+        <BlogSection />
+        {/* Blog Section End */}
+        {/* Social Images Start */}
+        <SocialImages />
+        {/* Social Images End */}
       </main>
       {/* Main Content Stops */}
+      {/* Footer Content Start */}
+      <FooterInfo />
+      {/* Footer Content End */}
+      {/* Scroll To Top Start */}
+      <Link to="/" id="scroll-top"><i className="fas fa-arrow-up"></i></Link>
+      {/* Scroll To Top End */}
     </>
   );
 }
