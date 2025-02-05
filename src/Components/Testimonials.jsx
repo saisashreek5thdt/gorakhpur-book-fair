@@ -15,12 +15,11 @@ export default function Testimonials() {
                 className="site-heading text-center wow fadeInDown"
                 data-wow-delay=".25s"
               >
-                <span className="site-title-tagline">Testimonials</span>
+                <span className="site-title-tagline">Team</span>
                 <h2 className="site-title">
-                  What Our <span>Guest Says</span> <br />
-                  About Us
+                  Executive <span>Members</span>
                 </h2>
-                <div className="site-shadow-text">Testimonials</div>
+                <div className="site-shadow-text">Team</div>
               </div>
             </div>
           </div>
@@ -30,17 +29,18 @@ export default function Testimonials() {
           >
             <div className="testimonial-single">
               <div className="testimonial-quote">
-                <div className="testimonial-rate">
+                {/* <div className="testimonial-rate">
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
-                </div>
+                </div> */}
                 <p>
-                  There are many variations of passage available the majority
-                  have suffered to alteration in some form making it look like
-                  readable by injected humour.
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don&apos;t look
+                  even slightly believable.
                 </p>
                 <div className="testimonial-quote-icon">
                   <img src={quoteImg1} alt="" />
@@ -51,24 +51,25 @@ export default function Testimonials() {
                   <img src={testimonialsImg1} alt="" />
                 </div>
                 <div className="testimonial-author-info">
-                  <h4>Anderson Dele</h4>
-                  <p>Our Guest</p>
+                  <h4>Member Name</h4>
+                  <p>Member Desination</p>
                 </div>
               </div>
             </div>
             <div className="testimonial-single">
               <div className="testimonial-quote">
-                <div className="testimonial-rate">
+                {/* <div className="testimonial-rate">
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
-                </div>
+                </div> */}
                 <p>
-                  There are many variations of passage available the majority
-                  have suffered to alteration in some form making it look like
-                  readable by injected humour.
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don&apos;t look
+                  even slightly believable.
                 </p>
                 <div className="testimonial-quote-icon">
                   <img src={quoteImg1} alt="" />
@@ -79,24 +80,25 @@ export default function Testimonials() {
                   <img src={testimonialsImg2} alt="" />
                 </div>
                 <div className="testimonial-author-info">
-                  <h4>Gordon Novak</h4>
-                  <p>Our Guest</p>
+                  <h4>Member Name</h4>
+                  <p>Member Desination</p>
                 </div>
               </div>
             </div>
             <div className="testimonial-single">
               <div className="testimonial-quote">
-                <div className="testimonial-rate">
+                {/* <div className="testimonial-rate">
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
-                </div>
+                </div> */}
                 <p>
-                  There are many variations of passage available the majority
-                  have suffered to alteration in some form making it look like
-                  readable by injected humour.
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don&apos;t look
+                  even slightly believable.
                 </p>
                 <div className="testimonial-quote-icon">
                   <img src={quoteImg1} alt="" />
@@ -107,24 +109,25 @@ export default function Testimonials() {
                   <img src={testimonialsImg3} alt="" />
                 </div>
                 <div className="testimonial-author-info">
-                  <h4>Lucille Rucker</h4>
-                  <p>Our Guest</p>
+                  <h4>Member Name</h4>
+                  <p>Member Desination</p>
                 </div>
               </div>
             </div>
             <div className="testimonial-single">
               <div className="testimonial-quote">
-                <div className="testimonial-rate">
+                {/* <div className="testimonial-rate">
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
-                </div>
+                </div> */}
                 <p>
-                  There are many variations of passage available the majority
-                  have suffered to alteration in some form making it look like
-                  readable by injected humour.
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don&apos;t look
+                  even slightly believable.
                 </p>
                 <div className="testimonial-quote-icon">
                   <img src={quoteImg1} alt="" />
@@ -135,8 +138,8 @@ export default function Testimonials() {
                   <img src={testimonialsImg4} alt="" />
                 </div>
                 <div className="testimonial-author-info">
-                  <h4>Elizabeth Galvan</h4>
-                  <p>Our Guest</p>
+                  <h4>Member Name</h4>
+                  <p>Member Designation</p>
                 </div>
               </div>
             </div>
