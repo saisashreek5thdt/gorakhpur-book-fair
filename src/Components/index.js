@@ -19,3 +19,4 @@ export { default as VenueInfo } from "./VenueInfo";
 export { default as RegisterForm } from "./RegisterForm";
 export { default as BlogSection } from "./BlogSection";
 export { default as SocialImages } from "./SocialImages";
+export { default as FAQSection } from "./FAQSection";
