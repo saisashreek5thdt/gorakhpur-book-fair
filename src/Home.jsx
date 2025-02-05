@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
 import {
   Header,
@@ -20,7 +21,8 @@ import {
   VenueInfo,
   RegisterForm,
   BlogSection,
-  SocialImages
+  SocialImages,
+  FAQSection
 } from "./Components";
 import FooterInfo from "./Components/Footer/FooterInfo";
 
@@ -60,14 +62,11 @@ export default function Home() {
         <CounterArea />
         {/* Counter Area End */}
         {/* Pricing Section Start */}
-        <PricingSection />
+        {/* <PricingSection /> */}
         {/* Pricing Section End */}
         {/* Speakers Section Start */}
         <SpeakersSection />
-        {/* Speakers Section End */}
-        {/* Event Register Start */}
-        <EventRegister />
-        {/* Event Register End */}
+        {/* Speakers Section End */}        
         {/* Join Event Start */}
         <JoinEvent />
         {/* Join Event End */}
@@ -83,15 +82,21 @@ export default function Home() {
         {/* Venue Start */}
         <VenueInfo />
         {/* Venue End */}
+        {/* Event Register Start */}
+        <EventRegister />
+        {/* Event Register End */}
         {/* Register Form Start */}
-        <RegisterForm />
+        {/* <RegisterForm /> */}
         {/* Register Form End */}
         {/* Blog Section Start */}
-        <BlogSection />
+        {/* <BlogSection /> */}
         {/* Blog Section End */}
         {/* Social Images Start */}
-        <SocialImages />
+        {/* <SocialImages /> */}
         {/* Social Images End */}
+        {/* FAQ Start */}
+        <FAQSection />
+        {/* FAQ End */}
       </main>
       {/* Main Content Stops */}
       {/* Footer Content Start */}
