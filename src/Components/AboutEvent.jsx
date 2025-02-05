@@ -17,10 +17,10 @@ export default function AboutEvent() {
                   <img className="img-3" src={aboutImg3} alt="" />
                 </div>
                 <div className="about-experience">
-                  <span>30</span>
+                  <span>75+</span>
                   <h5>
-                    Years Of <br />
-                    Experience
+                    Guest <br />
+                    Speakers
                   </h5>
                 </div>
               </div>
@@ -28,9 +28,9 @@ export default function AboutEvent() {
             <div className="col-lg-6">
               <div className="about-right wow fadeInLeft" data-wow-delay=".25s">
                 <div className="site-heading mb-3">
-                  <span className="site-title-tagline">About Us</span>
+                  <span className="site-title-tagline">Highlights</span>
                   <h2 className="site-title">
-                    Learn And Connect <span>With New</span> People
+                    What&apos;s <span>New</span>
                   </h2>
                   <div
                     className="site-shadow-text wow fadeInRight"
@@ -40,31 +40,52 @@ export default function AboutEvent() {
                   </div>
                 </div>
                 <p className="about-text">
-                  There are many variations of passages the majority have
-                  suffered alteration in some form slightly believable. If you
-                  are going to use a passage of need to be sure. All the
-                  generators on the Internet tend to repeat predefined chunks.
+                  The Gorakhpur Book Festival, organized by the National Book
+                  Trust, India (under the Ministry of Education, Government of
+                  India), is making its debut this April at the centrally
+                  located Venue.
                 </p>
                 <div className="about-list-wrap">
                   <ul className="about-list list-unstyled">
                     <li>
                       <div className="about-item">
                         <h4>
-                          <span>01.</span> Best Event Experience.
+                          <span>01.</span> Children Activities.
                         </h4>
                       </div>
                     </li>
                     <li>
                       <div className="about-item">
                         <h4>
-                          <span>02.</span> Big Conference and workshop.
+                          <span>02.</span> Authors Corner.
                         </h4>
                       </div>
                     </li>
                     <li>
                       <div className="about-item">
                         <h4>
-                          <span>03.</span> Our Experience Team.
+                          <span>03.</span> Cultural Activities.
+                        </h4>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="about-item">
+                        <h4>
+                          <span>04.</span> Film Festival.
+                        </h4>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="about-item">
+                        <h4>
+                          <span>05.</span> Workshop Stage.
+                        </h4>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="about-item">
+                        <h4>
+                          <span>06.</span> International Authors Meet.
                         </h4>
                       </div>
                     </li>
