@@ -14,27 +14,27 @@ export default function FooterQuicLinks() {
             </li>
             <li>
               <Link to="/">
-                <i className="fas fa-caret-right"></i> Update News
+                <i className="fas fa-caret-right"></i> Event Schedules
               </Link>
             </li>
             <li>
               <Link to="/">
-                <i className="fas fa-caret-right"></i> Contact Us
+                <i className="fas fa-caret-right"></i> Speakers
               </Link>
             </li>
             <li>
               <Link to="/">
-                <i className="fas fa-caret-right"></i> Testimonials
+                <i className="fas fa-caret-right"></i> Members
               </Link>
             </li>
             <li>
               <Link to="/">
-                <i className="fas fa-caret-right"></i> Terms Of Service
+                <i className="fas fa-caret-right"></i> Register
               </Link>
             </li>
             <li>
               <Link to="/">
-                <i className="fas fa-caret-right"></i> Privacy policy
+                <i className="fas fa-caret-right"></i> FAQ
               </Link>
             </li>
           </ul>
