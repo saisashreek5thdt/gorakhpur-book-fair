@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import speaker1 from "../assets/img/speaker/01.jpg";
 import speaker2 from "../assets/img/speaker/02.jpg";
 import speaker3 from "../assets/img/speaker/03.jpg";
@@ -31,7 +32,7 @@ export default function SpeakersSection() {
                   <img src={speaker1} alt="" />
                 </div>
                 <div className="team-content">
-                  <div className="social">
+                  {/* <div className="social">
                     <a href="#">
                       <i className="fab fa-facebook-f"></i>
                     </a>
@@ -44,12 +45,12 @@ export default function SpeakersSection() {
                     <a href="#">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
-                  </div>
+                  </div> */}
                   <div className="info">
                     <h4>
-                      <a href="#">Ronel Smith</a>
+                      <Link to="/">Speaker Name</Link>
                     </h4>
-                    <span>UX Deginer</span>
+                    <span>Speaker Designation</span>
                   </div>
                 </div>
               </div>
@@ -60,7 +61,7 @@ export default function SpeakersSection() {
                   <img src={speaker2} alt="" />
                 </div>
                 <div className="team-content">
-                  <div className="social">
+                  {/* <div className="social">
                     <a href="#">
                       <i className="fab fa-facebook-f"></i>
                     </a>
@@ -73,12 +74,12 @@ export default function SpeakersSection() {
                     <a href="#">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
-                  </div>
+                  </div> */}
                   <div className="info">
                     <h4>
-                      <a href="#">Malissa Fie</a>
+                      <Link to="/">Speaker Name</Link>
                     </h4>
-                    <span>UX Deginer</span>
+                    <span>Speaker Designation</span>
                   </div>
                 </div>
               </div>
@@ -89,7 +90,7 @@ export default function SpeakersSection() {
                   <img src={speaker3} alt="" />
                 </div>
                 <div className="team-content">
-                  <div className="social">
+                  {/* <div className="social">
                     <a href="#">
                       <i className="fab fa-facebook-f"></i>
                     </a>
@@ -102,12 +103,12 @@ export default function SpeakersSection() {
                     <a href="#">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
-                  </div>
+                  </div> */}
                   <div className="info">
                     <h4>
-                      <a href="#">Bodney Rios</a>
+                      <Link to="/">Speaker Name</Link>
                     </h4>
-                    <span>UX Deginer</span>
+                    <span>Speaker Designation</span>
                   </div>
                 </div>
               </div>
@@ -118,7 +119,7 @@ export default function SpeakersSection() {
                   <img src={speaker4} alt="" />
                 </div>
                 <div className="team-content">
-                  <div className="social">
+                  {/* <div className="social">
                     <a href="#">
                       <i className="fab fa-facebook-f"></i>
                     </a>
@@ -131,12 +132,12 @@ export default function SpeakersSection() {
                     <a href="#">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
-                  </div>
+                  </div> */}
                   <div className="info">
                     <h4>
-                      <a href="#">Durton Mary</a>
+                      <Link to="/">Speaker Name</Link>
                     </h4>
-                    <span>UX Deginer</span>
+                    <span>Speaker Designation</span>
                   </div>
                 </div>
               </div>
@@ -147,7 +148,7 @@ export default function SpeakersSection() {
                   <img src={speaker5} alt="" />
                 </div>
                 <div className="team-content">
-                  <div className="social">
+                  {/* <div className="social">
                     <a href="#">
                       <i className="fab fa-facebook-f"></i>
                     </a>
@@ -160,12 +161,12 @@ export default function SpeakersSection() {
                     <a href="#">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
-                  </div>
+                  </div> */}
                   <div className="info">
                     <h4>
-                      <a href="#">Heidi Powers</a>
+                      <Link to="/">Speaker Name</Link>
                     </h4>
-                    <span>UX Deginer</span>
+                    <span>Speaker Designation</span>
                   </div>
                 </div>
               </div>
@@ -176,7 +177,7 @@ export default function SpeakersSection() {
                   <img src={speaker6} alt="" />
                 </div>
                 <div className="team-content">
-                  <div className="social">
+                  {/* <div className="social">
                     <a href="#">
                       <i className="fab fa-facebook-f"></i>
                     </a>
@@ -189,12 +190,12 @@ export default function SpeakersSection() {
                     <a href="#">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
-                  </div>
+                  </div> */}
                   <div className="info">
                     <h4>
-                      <a href="#">Miller Carla</a>
+                      <Link to="/">Speaker Name</Link>
                     </h4>
-                    <span>UX Deginer</span>
+                    <span>Speaker Designation</span>
                   </div>
                 </div>
               </div>
