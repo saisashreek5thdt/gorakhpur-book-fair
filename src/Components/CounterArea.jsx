@@ -47,14 +47,14 @@ export default function CounterArea() {
                         <span
                           className="counter"
                           data-count="+"
-                          data-to="150"
+                          data-to="32"
                           data-speed="3000"
                         >
-                          150
+                          32
                         </span>
                         <span className="counter-unit">+</span>
                       </div>
-                      <h6 className="title">Unique Workshops</h6>
+                      <h6 className="title">Event Artist</h6>
                     </div>
                   </div>
                 </div>
@@ -71,14 +71,14 @@ export default function CounterArea() {
                         <span
                           className="counter"
                           data-count="+"
-                          data-to="260"
+                          data-to="5"
                           data-speed="3000"
                         >
-                          260
+                          5
                         </span>
-                        <span className="counter-unit">K</span>
+                        <span className="counter-unit"></span>
                       </div>
-                      <h6 className="title">Event Participants</h6>
+                      <h6 className="title">Event Stages</h6>
                     </div>
                   </div>
                 </div>
@@ -95,14 +95,14 @@ export default function CounterArea() {
                         <span
                           className="counter"
                           data-count="+"
-                          data-to="120"
+                          data-to="3"
                           data-speed="3000"
                         >
-                          120
+                          3
                         </span>
-                        <span className="counter-unit">+</span>
+                        <span className="counter-unit"></span>
                       </div>
-                      <h6 className="title">Skilled Speakers</h6>
+                      <h6 className="title">Days Concerts</h6>
                     </div>
                   </div>
                 </div>
@@ -119,14 +119,14 @@ export default function CounterArea() {
                         <span
                           className="counter"
                           data-count="+"
-                          data-to="50"
+                          data-to="75"
                           data-speed="3000"
                         >
-                          50
+                          75
                         </span>
                         <span className="counter-unit">+</span>
                       </div>
-                      <h6 className="title">Win Awards</h6>
+                      <h6 className="title">Guest Speakers</h6>
                     </div>
                   </div>
                 </div>
