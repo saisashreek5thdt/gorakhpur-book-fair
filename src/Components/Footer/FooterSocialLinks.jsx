@@ -26,17 +26,17 @@ export default function FooterSocialLinks() {
               <Link to="/">
                 <i className="fab fa-youtube"></i> Youtube
               </Link>
-            </li>
-            <li>
-              <Link to="/">
-                <i className="fab fa-whatsapp"></i> Whatsapp
-              </Link>
-            </li>
+            </li>            
             <li>
               <Link to="/">
                 <i className="fab fa-linkedin-in"></i> Linkedin
               </Link>
             </li>
+            {/* <li>
+              <Link to="/">
+                <i className="fab fa-whatsapp"></i> Whatsapp
+              </Link>
+            </li> */}
           </ul>
         </div>
       </div>
