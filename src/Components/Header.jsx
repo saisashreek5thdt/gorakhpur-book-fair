@@ -48,23 +48,28 @@ export default function Header() {
                         </Link>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <Link className="dropdown-item" to="#">
+                            <Link className="dropdown-item" to="/">
                               English
                             </Link>
                           </li>
                           <li>
-                            <Link className="dropdown-item" to="#">
-                              German
+                            <Link className="dropdown-item" to="/">
+                              Hindi
                             </Link>
                           </li>
                           <li>
-                            <Link className="dropdown-item" to="#">
-                              Russian
+                            <Link className="dropdown-item" to="/">
+                              Marathi
                             </Link>
                           </li>
                           <li>
-                            <Link className="dropdown-item" to="#">
-                              Spanish
+                            <Link className="dropdown-item" to="/">
+                              Bhojpuri
+                            </Link>
+                          </li>
+                          <li>
+                            <Link className="dropdown-item" to="/">
+                              Urdu
                             </Link>
                           </li>
                         </ul>
@@ -121,32 +126,14 @@ export default function Header() {
               </div>
               <div className="collapse navbar-collapse" id="main_nav">
                 <ul className="navbar-nav">
-                  <li className="nav-item dropdown">
+                  {/* <li className="nav-item dropdown">
                     <Link
-                      className="nav-link dropdown-toggle active"
-                      to="#"
-                      data-bs-toggle="dropdown"
+                      className="nav-link active"
+                      to="/"
                     >
                       Home
                     </Link>
-                    <ul className="dropdown-menu fade-down">
-                      <li>
-                        <Link className="dropdown-item" to="/">
-                          Home Page 01
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" to="/">
-                          Home Page 02
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" to="/">
-                          Home Page 03
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <Link className="nav-link" to="/">
                       About
@@ -163,27 +150,59 @@ export default function Header() {
                     <ul className="dropdown-menu fade-down">
                       <li>
                         <Link className="dropdown-item" to="/">
-                          Schedule One
+                          Venue One
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item" to="/">
-                          Schedule Two
+                          Venue Two
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item" to="/">
-                          Schedule Three
+                          Venue Three
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item" to="/">
-                          Schedule Single
+                          Venue Four
                         </Link>
                       </li>
                     </ul>
                   </li>
-                  <li className="nav-item dropdown">
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link"
+                      to="/"
+                    >
+                      Speakers
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link"
+                      to="/"
+                    >
+                      Team
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link"
+                      to="/"
+                    >
+                      Publishers
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link"
+                      to="/"
+                    >
+                      FAQ
+                    </Link>
+                  </li>
+                  {/* <li className="nav-item dropdown">
                     <Link
                       className="nav-link dropdown-toggle"
                       to="#"
@@ -302,33 +321,7 @@ export default function Header() {
                         </Link>
                       </li>
                     </ul>
-                  </li>
-                  <li className="nav-item dropdown">
-                    <Link
-                      className="nav-link dropdown-toggle"
-                      to="#"
-                      data-bs-toggle="dropdown"
-                    >
-                      Speakers
-                    </Link>
-                    <ul className="dropdown-menu fade-down">
-                      <li>
-                        <Link className="dropdown-item" to="/">
-                          Speakers One
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" to="/">
-                          Speakers Two
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" to="/">
-                          Speaker Single
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
+                  </li>                  
                   <li className="nav-item dropdown">
                     <Link
                       className="nav-link dropdown-toggle"
@@ -354,7 +347,7 @@ export default function Header() {
                     <Link className="nav-link" to="/">
                       Contact
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
                 <div className="nav-right">
                   <div className="search-btn">
