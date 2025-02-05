@@ -28,8 +28,8 @@ export default function VenueInfo() {
                 </div>
                 <div className="venue-content">
                   <span>Venue 01</span>
-                  <h6>Marine City Michigan</h6>
-                  <p>New York, USA</p>
+                  <h6>Venue Name</h6>
+                  <p>Venue Location</p>
                   <div className="venue-play">
                     <a
                       className="popup-youtube"
@@ -49,8 +49,8 @@ export default function VenueInfo() {
                 </div>
                 <div className="venue-content">
                   <span>Venue 02</span>
-                  <h6>Kansas City Omaha</h6>
-                  <p>New York, USA</p>
+                  <h6>Venue Name</h6>
+                  <p>Venue Location</p>
                   <div className="venue-play">
                     <a
                       className="popup-youtube"
@@ -70,8 +70,8 @@ export default function VenueInfo() {
                 </div>
                 <div className="venue-content">
                   <span>Venue 03</span>
-                  <h6>New Hampshire City</h6>
-                  <p>New York, USA</p>
+                  <h6>Venue Name</h6>
+                  <p>Venue Location</p>
                   <div className="venue-play">
                     <a
                       className="popup-youtube"
