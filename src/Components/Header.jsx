@@ -350,14 +350,14 @@ export default function Header() {
                   </li> */}
                 </ul>
                 <div className="nav-right">
-                  <div className="search-btn">
+                  {/* <div className="search-btn">
                     <button
                       type="button"
                       className="nav-right-link search-box-outer"
                     >
                       <i className="fa fa-solid fa-magnifying-glass"></i>
                     </button>
-                  </div>
+                  </div> */}
                   <div className="sidebar-btn">
                     <button type="button" className="nav-right-link">
                       <i className="fa fa-solid fa-bars-staggered"></i>
