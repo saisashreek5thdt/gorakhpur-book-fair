@@ -25,7 +25,7 @@ export default function FooterInfo() {
                     suffered in some injected content of a page when looking at
                     its layout humour words believable.
                   </p>
-                  <div className="footer-newsletter">
+                  {/* <div className="footer-newsletter">
                     <p>Subscribe Our Newsletter</p>
                     <div className="subscribe-form">
                       <form action="#">
@@ -42,7 +42,7 @@ export default function FooterInfo() {
                         </div>
                       </form>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <FooterQuicLinks />
@@ -57,19 +57,19 @@ export default function FooterInfo() {
               <div className="col-md-6 align-self-center">
                 <p className="copyright-text">
                   &copy; Copyright <span id="date"></span>
-                  <Link to="/"> Eventu </Link> All Rights Reserved.
+                  <Link to="/"> &nbsp; 5TH Dimension Technologies </Link> All Rights Reserved.
                 </p>
               </div>
               <div className="col-md-6 align-self-center">
                 <ul className="footer-menu">
                   <li>
-                    <Link to="/">Support</Link>
+                    <Link to="/">Events</Link>
                   </li>
                   <li>
-                    <Link to="/">Terms Of Services</Link>
+                    <Link to="/">FAQ</Link>
                   </li>
                   <li>
-                    <Link to="/">Privacy Policy</Link>
+                    <Link to="/">Registration</Link>
                   </li>
                 </ul>
               </div>
