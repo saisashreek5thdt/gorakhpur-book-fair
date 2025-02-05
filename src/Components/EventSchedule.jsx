@@ -194,7 +194,7 @@ export default function EventSchedule() {
                                 11.00 AM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -216,7 +216,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img2} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -228,7 +228,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img3} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -261,7 +261,7 @@ export default function EventSchedule() {
                                 12.15 PM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -283,7 +283,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img5} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -295,7 +295,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img6} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -328,7 +328,7 @@ export default function EventSchedule() {
                                 01.30 PM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -350,7 +350,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img3} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -362,7 +362,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img5} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -406,7 +406,7 @@ export default function EventSchedule() {
                                 11.00 AM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -428,7 +428,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img2} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -440,7 +440,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img3} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -473,7 +473,7 @@ export default function EventSchedule() {
                                 12.15 PM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -495,7 +495,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img5} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -507,7 +507,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img6} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -540,7 +540,7 @@ export default function EventSchedule() {
                                 01.30 PM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -562,7 +562,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img3} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -574,7 +574,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img5} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -618,7 +618,7 @@ export default function EventSchedule() {
                                 11.00 AM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -640,7 +640,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img2} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -652,7 +652,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img3} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -685,7 +685,7 @@ export default function EventSchedule() {
                                 12.15 PM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -707,7 +707,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img5} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -719,7 +719,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img6} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -752,7 +752,7 @@ export default function EventSchedule() {
                                 01.30 PM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -774,7 +774,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img3} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -786,7 +786,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img5} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -830,7 +830,7 @@ export default function EventSchedule() {
                                 11.00 AM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -852,7 +852,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img2} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -864,7 +864,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img3} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -897,7 +897,7 @@ export default function EventSchedule() {
                                 12.15 PM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -919,7 +919,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img5} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -931,7 +931,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img6} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -964,7 +964,7 @@ export default function EventSchedule() {
                                 01.30 PM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -986,7 +986,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img3} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -998,7 +998,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img5} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -1042,7 +1042,7 @@ export default function EventSchedule() {
                                 11.00 AM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -1064,7 +1064,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img2} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -1076,7 +1076,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img3} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -1109,7 +1109,7 @@ export default function EventSchedule() {
                                 12.15 PM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -1131,7 +1131,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img5} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -1143,7 +1143,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img6} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -1176,7 +1176,7 @@ export default function EventSchedule() {
                                 01.30 PM
                               </li>
                               <li>
-                                <i className="fa fa-solid fa-location-dot"></i>{" "}
+                                <i className="far fa-location-dot"></i>{" "}
                                 Venue One
                               </li>
                             </ul>
@@ -1198,7 +1198,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img3} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">
@@ -1210,7 +1210,7 @@ export default function EventSchedule() {
                               <div className="speaker-img">
                                 <img src={tab1Img5} alt="" />
                                 <span className="speaker-img-icon">
-                                  <i className="fa fa-solid fa-microphone-lines"></i>
+                                  <i className="far fa-microphone-lines"></i>
                                 </span>
                               </div>
                               <div className="speaker-info">

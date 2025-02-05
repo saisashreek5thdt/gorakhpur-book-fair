@@ -1,5 +1,5 @@
 import footerShape from "../../assets/img/shape/01.png";
-import footerLogo from "../../assets/img/logo/logo-light.png";
+import footerLogo from "../../assets/img/logo/gorakhpur-logo-white.png";
 import { Link } from "react-router-dom";
 import FooterQuicLinks from "./FooterQuickLinks";
 import FooterSocialLinks from "./FooterSocialLinks";

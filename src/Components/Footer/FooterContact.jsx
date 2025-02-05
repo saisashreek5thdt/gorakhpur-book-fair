@@ -9,12 +9,11 @@ export default function FooterContact() {
           <ul className="footer-contact">
             <li>
               <Link to="tel:+919988337802">
-                <i className="fas fa-phone"></i>+919988337802
+                <i className="far fa-phone"></i>+919988337802
               </Link>
             </li>
             <li>
-              <i className="fas fa-map-marker-alt"></i>25/B Milford Road, New
-              York
+              <i className="far fa-map-marker-alt"></i>Venue
             </li>
             <li>
               <Link to="mailto:eventinfo@gorakhpurbookfair.com">

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import sidebarLogo from "../assets/img/logo/logo.png"
+import sidebarLogo from "../assets/img/logo/gorakhpur-logo.png"
 
 export default function SidebarPopup() {
   return (
@@ -27,7 +27,7 @@ export default function SidebarPopup() {
                 <li>
                   <h6>Email</h6>
                   <Link to="mailto:info@gorakhpurbookfair.com">
-                    <i className="far fa-envelope"></i>
+                    <i className="far fa-envelopes"></i>
                     <span
                       className="__cf_email__"
                       data-cfemail="771e19111837120f161a071b125914181a"
@@ -39,14 +39,14 @@ export default function SidebarPopup() {
                 <li>
                   <h6>Phone</h6>
                   <Link to="tel:+21236547898">
-                    <i className="fa fa-solid fa-phone-volume"></i>+2 123 654
+                    <i className="far fa-phone-volume"></i>+2 123 654
                     7898
                   </Link>
                 </li>
                 <li>
                   <h6>Address</h6>
                   <Link to="/">
-                    <i className="fa fa-solid fa-location-dot"></i>25/B Milford
+                    <i className="far fa-location-dot"></i>25/B Milford
                     Road, New York
                   </Link>
                 </li>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/img/logo/logo.png";
+import logo from "../assets/img/logo/gorakhpur-logo.png";
 
 export default function Header() {
   return (
@@ -15,19 +15,19 @@ export default function Header() {
                       <ul>
                         <li>
                           <Link to="#">
-                            <i className="fa fa-solid fa-location-dot"></i>{" "}
+                            <i className="far fa-location-dot"></i>{" "}
                             Address
                           </Link>
                         </li>
                         <li>
                           <Link to="mailto:info@gorakhpurbookfair.com">
-                            <i className="fa fa-regular fa-envelope"></i>
+                            <i className="far fa-envelopes"></i>
                             &nbsp;info@gorakhpurbookfair.com
                           </Link>
                         </li>
                         <li>
                           <Link to="tel:+919988337802">
-                            <i className="fa fa-solid fa-phone-volume"></i>{" "}
+                            <i className="far fa-phone-volume"></i>{" "}
                             +919988337802
                           </Link>
                         </li>
@@ -103,14 +103,14 @@ export default function Header() {
                 <img src={logo} alt="logo" />
               </Link>
               <div className="mobile-menu-right">
-                <div className="search-btn">
+                {/* <div className="search-btn">
                   <button
                     type="button"
                     className="nav-right-link search-box-outer"
                   >
                     <i className="fas fa-magnifying-glass"></i>
                   </button>
-                </div>
+                </div> */}
                 <button
                   className="navbar-toggler"
                   type="button"
