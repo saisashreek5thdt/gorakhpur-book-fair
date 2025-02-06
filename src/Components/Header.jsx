@@ -40,7 +40,7 @@ export default function Header() {
                     <div className="header-top-lang">
                       <div className="dropdown">
                         <Link
-                          to="#"
+                          to="/"
                           className="top-lang dropdown-toggle"
                           data-bs-toggle="dropdown"
                         >
