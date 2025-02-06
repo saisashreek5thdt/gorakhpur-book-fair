@@ -39,13 +39,13 @@ export default function Header() {
                   <div className="header-top-right">
                     <div className="header-top-lang">
                       <div className="dropdown">
-                        <Link
-                          to="/"
+                        <a
+                          href="#"
                           className="top-lang dropdown-toggle"
                           data-bs-toggle="dropdown"
                         >
                           <i className="fal fa-globe"></i> Language
-                        </Link>
+                        </a>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
                             <Link className="dropdown-item" to="/">
