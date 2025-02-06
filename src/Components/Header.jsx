@@ -48,29 +48,29 @@ export default function Header() {
                         </a>
                         <ul className="dropdown-menu dropdown-menu-end">
                           <li>
-                            <Link className="dropdown-item" to="/">
+                            <a className="dropdown-item" href="#">
                               English
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link className="dropdown-item" to="/">
+                            <a className="dropdown-item" href="#">
                               Hindi
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link className="dropdown-item" to="/">
+                            <a className="dropdown-item" href="#">
                               Marathi
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link className="dropdown-item" to="/">
+                            <a className="dropdown-item" href="#">
                               Bhojpuri
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link className="dropdown-item" to="/">
+                            <a className="dropdown-item" href="#">
                               Urdu
-                            </Link>
+                            </a>
                           </li>
                         </ul>
                       </div>
