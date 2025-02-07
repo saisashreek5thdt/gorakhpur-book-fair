@@ -96,6 +96,11 @@ export default function Gallery() {
               </div>
             </div>
           </div>
+          <div className="text-center mt-40 wow fadeInUp" data-wow-delay=".25s">
+            <Link to="/" className="theme-btn">
+              <span className="fas fa-images"></span> View More
+            </Link>
+          </div>
         </div>
       </div>
     </>
