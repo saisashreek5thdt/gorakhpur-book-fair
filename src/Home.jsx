@@ -68,7 +68,7 @@ export default function Home() {
         <SpeakersSection />
         {/* Speakers Section End */}        
         {/* Join Event Start */}
-        <JoinEvent />
+        {/* <JoinEvent /> */}
         {/* Join Event End */}
         {/* Testimonials Start */}
         <Testimonials />
