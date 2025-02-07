@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
 import aboutImg1 from "../assets/img/about/01.jpg";
 import aboutImg2 from "../assets/img/about/02.jpg";
@@ -43,9 +44,25 @@ export default function AboutEvent() {
                   The Gorakhpur Book Festival, organized by the National Book
                   Trust, India (under the Ministry of Education, Government of
                   India), is making its debut this April at the centrally
-                  located Venue.
+                  located at Gorakhpur.
                 </p>
-                <div className="about-list-wrap">
+                <p className="mt-3 about-text">
+                  It promises to be a landmark event in the national publishing
+                  calendar, bringing together a diverse array of national as
+                  well as international exhibitors.
+                </p>
+                <p className="mt-3 about-text">
+                  Featuring the theme &quot;Books for All,&quot; the
+                  festival offers a multifaceted experience with literary
+                  discussions, cultural performances, and activities for all age
+                  groups.
+                </p>
+                <p className="mt-3 about-text">
+                  This inaugural edition will host over 300 exhibitors and
+                  expects to welcome more than 100,000 visitors, fostering a
+                  vibrant exchange of ideas and stories.
+                </p>
+                {/* <div className="about-list-wrap">
                   <ul className="about-list list-unstyled">
                     <li>
                       <div className="about-item">
@@ -90,10 +107,10 @@ export default function AboutEvent() {
                       </div>
                     </li>
                   </ul>
-                </div>
-                <Link to="/" className="theme-btn">
+                </div> */}
+                {/* <Link to="/" className="theme-btn">
                   Discover More<i className="fas fa-arrow-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
