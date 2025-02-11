@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
-import videoBG from "../assets/videoBG.mp4";
+import videoBG from "https://res.cloudinary.com/dydh2rfnk/video/upload/v1739294393/videoBG_ptpduh.mp4";
 
 export default function VideoSection() {
   const videoBGImg = {
