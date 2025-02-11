@@ -38,16 +38,14 @@ export default function SidebarPopup() {
                 </li>
                 <li>
                   <h6>Phone</h6>
-                  <Link to="tel:+21236547898">
-                    <i className="far fa-phone-volume"></i>+2 123 654
-                    7898
+                  <Link to="tel:+919988337802">
+                    <i className="far fa-phone-volume"></i>+919988337802
                   </Link>
                 </li>
                 <li>
                   <h6>Address</h6>
                   <Link to="/">
-                    <i className="far fa-location-dot"></i>25/B Milford
-                    Road, New York
+                    <i className="far fa-location-dot"></i>Venue
                   </Link>
                 </li>
               </ul>

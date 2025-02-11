@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
-import gallery1 from "../assets/img/gallery/01.jpg";
-import gallery2 from "../assets/img/gallery/02.jpg";
-import gallery3 from "../assets/img/gallery/03.jpg";
-import gallery4 from "../assets/img/gallery/04.jpg";
+import gallery1 from "../assets/img/gallery/fest/fest1.jpg";
+import gallery2 from "../assets/img/gallery/fest/fest2.jpg";
+import gallery3 from "../assets/img/gallery/fest/fest3.jpg";
+import gallery4 from "../assets/img/gallery/fest/fest4.jpg";
+import gallery5 from "../assets/img/gallery/fest/fest5.jpg";
+import gallery6 from "../assets/img/gallery/fest/fest6.jpg";
 
 export default function Gallery() {
   return (
@@ -30,68 +32,85 @@ export default function Gallery() {
             </div>
           </div>
           <div className="row g-4 popup-gallery">
-            <div className="col-md-7">
+            <div className="col-md-12">
               <div className="row g-4">
-                <div className="col-12">
+                <div className="col-4">
                   <div
                     className="gallery-item wow fadeInDown"
                     data-wow-delay=".25s"
                   >
                     <div className="gallery-img">
                       <img src={gallery2} alt="" />
-                      <Link
-                        className="popup-img gallery-link"
-                        to={gallery2}
-                      >
+                      <Link className="popup-img gallery-link" to={gallery2}>
                         <i className="fal fa-plus"></i>
                       </Link>
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-4">
                   <div
                     className="gallery-item wow fadeInDown"
                     data-wow-delay=".25s"
                   >
                     <div className="gallery-img">
                       <img src={gallery3} alt="" />
-                      <Link
-                        className="popup-img gallery-link"
-                        to={gallery3}
-                      >
+                      <Link className="popup-img gallery-link" to={gallery3}>
                         <i className="fal fa-plus"></i>
                       </Link>
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-4">
                   <div
                     className="gallery-item wow fadeInDown"
                     data-wow-delay=".25s"
                   >
                     <div className="gallery-img">
                       <img src={gallery4} alt="" />
-                      <Link
-                        className="popup-img gallery-link"
-                        to={gallery4}
-                      >
+                      <Link className="popup-img gallery-link" to={gallery4}>
                         <i className="fal fa-plus"></i>
                       </Link>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-md-5">
-              <div className="gallery-item wow fadeInUp" data-wow-delay=".25s">
-                <div className="gallery-img">
-                  <img src={gallery1} alt="" />
-                  <Link
-                    className="popup-img gallery-link"
-                    to={gallery1}
+                <div className="col-4">
+                  <div
+                    className="gallery-item wow fadeInUp"
+                    data-wow-delay=".25s"
                   >
-                    <i className="fal fa-plus"></i>
-                  </Link>
+                    <div className="gallery-img">
+                      <img src={gallery1} alt="" />
+                      <Link className="popup-img gallery-link" to={gallery1}>
+                        <i className="fal fa-plus"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-4">
+                  <div
+                    className="gallery-item wow fadeInUp"
+                    data-wow-delay=".25s"
+                  >
+                    <div className="gallery-img">
+                      <img src={gallery5} alt="" />
+                      <Link className="popup-img gallery-link" to={gallery5}>
+                        <i className="fal fa-plus"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-4">
+                  <div
+                    className="gallery-item wow fadeInUp"
+                    data-wow-delay=".25s"
+                  >
+                    <div className="gallery-img">
+                      <img src={gallery6} alt="" />
+                      <Link className="popup-img gallery-link" to={gallery6}>
+                        <i className="fal fa-plus"></i>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

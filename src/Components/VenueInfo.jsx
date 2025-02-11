@@ -27,9 +27,9 @@ export default function VenueInfo() {
                   <img src={venueImg1} alt="" />
                 </div>
                 <div className="venue-content">
-                  <span>Venue 01</span>
-                  <h6>Venue Name</h6>
-                  <p>Venue Location</p>
+                  <span>Pune</span>
+                  <h6>Pune Book Fair</h6>
+                  <p>Pune, Maharashtra</p>
                   <div className="venue-play">
                     <a
                       className="popup-youtube"
@@ -48,9 +48,9 @@ export default function VenueInfo() {
                   <img src={venueImg2} alt="" />
                 </div>
                 <div className="venue-content">
-                  <span>Venue 02</span>
-                  <h6>Venue Name</h6>
-                  <p>Venue Location</p>
+                  <span>Mumbai</span>
+                  <h6>Mumbai Book Fair</h6>
+                  <p>Azad Maidan, Mumbai</p>
                   <div className="venue-play">
                     <a
                       className="popup-youtube"
@@ -69,9 +69,9 @@ export default function VenueInfo() {
                   <img src={venueImg3} alt="" />
                 </div>
                 <div className="venue-content">
-                  <span>Venue 03</span>
-                  <h6>Venue Name</h6>
-                  <p>Venue Location</p>
+                  <span>Gorakhpur</span>
+                  <h6>Gorakhpur Book Fair</h6>
+                  <p>Gorakhpur, UP</p>
                   <div className="venue-play">
                     <a
                       className="popup-youtube"

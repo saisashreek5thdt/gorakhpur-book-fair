@@ -29,7 +29,7 @@ export default function AboutEvent() {
             <div className="col-lg-6">
               <div className="about-right wow fadeInLeft" data-wow-delay=".25s">
                 <div className="site-heading mb-3">
-                  <span className="site-title-tagline">Highlights</span>
+                  <span className="site-title-tagline">About</span>
                   <h2 className="site-title">
                     What&apos;s <span>New</span>
                   </h2>
@@ -37,7 +37,7 @@ export default function AboutEvent() {
                     className="site-shadow-text wow fadeInRight"
                     data-wow-delay=".35s"
                   >
-                    About Us
+                    GORAKHPUR
                   </div>
                 </div>
                 <p className="about-text">

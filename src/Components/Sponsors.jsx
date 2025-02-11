@@ -1,16 +1,63 @@
 import { Link } from "react-router-dom";
-import sponsorsImg1 from "../assets/img/partner/01.png";
-import sponsorsImg2 from "../assets/img/partner/02.png";
-import sponsorsImg3 from "../assets/img/partner/03.png";
-import sponsorsImg4 from "../assets/img/partner/04.png";
-import sponsorsImg5 from "../assets/img/partner/05.png";
-import sponsorsImg6 from "../assets/img/partner/06.png";
-import sponsorsImg7 from "../assets/img/partner/07.png";
-import sponsorsImg8 from "../assets/img/partner/08.png";
-import sponsorsImg9 from "../assets/img/partner/09.png";
-import sponsorsImg10 from "../assets/img/partner/10.png";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import sponsorsImg1 from "../assets/img/partner/sponsor.png";
+import sponsorsImg2 from "../assets/img/partner/sponsor.png";
+import sponsorsImg3 from "../assets/img/partner/sponsor.png";
+import sponsorsImg4 from "../assets/img/partner/sponsor.png";
+import sponsorsImg5 from "../assets/img/partner/sponsor.png";
+import sponsorsImg6 from "../assets/img/partner/sponsor.png";
+import sponsorsImg7 from "../assets/img/partner/sponsor.png";
+import sponsorsImg8 from "../assets/img/partner/sponsor.png";
+import sponsorsImg9 from "../assets/img/partner/sponsor.png";
+import sponsorsImg10 from "../assets/img/partner/sponsor.png";
 
 export default function Sponsors() {
+  const sponsorsImg = [
+    {
+      id: 1,
+      imgURL: sponsorsImg1,
+    },
+    {
+      id: 2,
+      imgURL: sponsorsImg2,
+    },
+    {
+      id: 3,
+      imgURL: sponsorsImg3,
+    },
+    {
+      id: 4,
+      imgURL: sponsorsImg4,
+    },
+    {
+      id: 5,
+      imgURL: sponsorsImg5,
+    },
+    {
+      id: 6,
+      imgURL: sponsorsImg6,
+    },
+    {
+      id: 7,
+      imgURL: sponsorsImg7,
+    },
+    {
+      id: 8,
+      imgURL: sponsorsImg8,
+    },
+    {
+      id: 9,
+      imgURL: sponsorsImg9,
+    },
+    {
+      id: 10,
+      imgURL: sponsorsImg10,
+    },
+  ];
+
   return (
     <>
       <div className="partner-area partner-bg py-80">
@@ -30,6 +77,32 @@ export default function Sponsors() {
           </div>
           <div className="partner-wrapper wow fadeInUp" data-wow-delay=".25s">
             <div className="row g-5 justify-content-center">
+              <Swiper
+                className="swiper"
+                slidesPerView={5}
+                spaceBetween={10}
+                loop={true}
+                autoplay={{
+                  delay: 3000, // Adjust delay time (3 seconds here)
+                  disableOnInteraction: false,
+                }}
+                modules={[Autoplay, Pagination]}
+                breakpoints={{
+                  320: { slidesPerView: 1 }, // Mobile view shows 1 slide
+                  768: { slidesPerView: 3 }, // Tablet view shows 2 slides
+                  1024: { slidesPerView: 5 }, // Desktop view shows 3 slides
+                }}
+              >
+                {sponsorsImg.map((sponsor, index) => (
+                  <SwiperSlide key={index}>
+                    <div className="col-6 col-md-2" style={{ width: "100%", objectFit: "cover" }}>
+                      <img src={sponsor.imgURL} alt="thumb" />
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+            {/* <div className="row g-5 justify-content-center">
               <div className="col-6 col-md-2">
                 <img src={sponsorsImg1} alt="thumb" />
               </div>
@@ -60,7 +133,7 @@ export default function Sponsors() {
               <div className="col-6 col-md-2">
                 <img src={sponsorsImg10} alt="thumb" />
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="text-center mt-40 wow fadeInUp" data-wow-delay=".25s">
             <Link to="/" className="theme-btn">

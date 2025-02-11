@@ -13,7 +13,7 @@ export default function FooterContact() {
               </Link>
             </li>
             <li>
-              <i className="far fa-map-marker-alt"></i>Venue
+              <i className="far fa-map-marker-alt"></i>Gorakhpur
             </li>
             <li>
               <Link to="mailto:eventinfo@gorakhpurbookfair.com">
@@ -28,9 +28,9 @@ export default function FooterContact() {
             </li>
           </ul>
           <div className="footer-request">
-            <p>Book Your Ticket</p>
+            <p>Register Your Ticket</p>
             <Link to="/" className="theme-btn">
-              Buy Ticket<i className="fas fa-arrow-right"></i>
+              Registration<i className="fas fa-arrow-right"></i>
             </Link>
           </div>
         </div>

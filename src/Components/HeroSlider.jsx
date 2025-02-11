@@ -4,7 +4,6 @@ import slider2 from "../assets/img/hero/slider-2.jpg";
 import slider3 from "../assets/img/hero/slider-3.jpg";
 
 export default function HeroSlider() {
-
   const sliderBG1 = {
     backgroundImage: `url(${slider1})`,
     backgroundSize: "cover",
@@ -29,10 +28,7 @@ export default function HeroSlider() {
           </div>
         </div>
         <div className="hero-slider owl-carousel owl-theme">
-          <div
-            className="hero-single"
-            style={sliderBG1}
-          >
+          <div className="hero-single" style={sliderBG1}>
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-lg-7">
@@ -44,8 +40,8 @@ export default function HeroSlider() {
                     >
                       <h1>25</h1>
                       <div className="date-content">
-                        <span>May 2024</span>
-                        <p>25/B Milford Road, New York, USA</p>
+                        <span>May 2025</span>
+                        <p>Gorakhpur, Uttar Pradesh, India</p>
                       </div>
                     </div>
                     <h1
@@ -53,12 +49,12 @@ export default function HeroSlider() {
                       data-animation="fadeInRight"
                       data-delay=".50s"
                     >
-                      Digital World <span>Conference</span> Meetup
+                      Celebrating The <span>Power</span> of <span>Words</span>
                     </h1>
                     <p data-animation="fadeInLeft" data-delay=".75s">
-                      There are many variations of passages available but the
-                      majority have suffered alteration in some form by injected
-                      humour.
+                      The Gorakhpur Book Festival, organized by the National Book
+                      Trust, India (under the Ministry of Education, Government
+                      of India)
                     </p>
                     <div
                       className="hero-btn"
@@ -66,21 +62,18 @@ export default function HeroSlider() {
                       data-delay="1s"
                     >
                       <Link to="/" className="theme-btn">
-                        Buy Ticket<i className="fas fa-arrow-right"></i>
+                        Registration<i className="fas fa-arrow-right"></i>
                       </Link>
-                      <Link to="/" className="theme-btn theme-btn2">
+                      {/* <Link to="/" className="theme-btn theme-btn2">
                         Learn More<i className="fas fa-arrow-right"></i>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className="hero-single"
-            style={sliderBG2}
-          >
+          <div className="hero-single" style={sliderBG2}>
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-lg-7">
@@ -90,10 +83,10 @@ export default function HeroSlider() {
                       data-animation="fadeInDown"
                       data-delay=".25s"
                     >
-                      <h1>25</h1>
+                      <h1>26</h1>
                       <div className="date-content">
-                        <span>May 2024</span>
-                        <p>25/B Milford Road, New York, USA</p>
+                        <span>May 2025</span>
+                        <p>Gorakhpur, Uttar Pradesh, India</p>
                       </div>
                     </div>
                     <h1
@@ -101,12 +94,12 @@ export default function HeroSlider() {
                       data-animation="fadeInRight"
                       data-delay=".50s"
                     >
-                      Digital World <span>Conference</span> Meetup
+                      Celebrating The <span>Power</span> of <span>Words</span>
                     </h1>
                     <p data-animation="fadeInLeft" data-delay=".75s">
-                      There are many variations of passages available but the
-                      majority have suffered alteration in some form by injected
-                      humour.
+                      The Gorakhpur Book Festival, organized by the National Book
+                      Trust, India (under the Ministry of Education, Government
+                      of India)
                     </p>
                     <div
                       className="hero-btn"
@@ -114,21 +107,18 @@ export default function HeroSlider() {
                       data-delay="1s"
                     >
                       <Link to="/" className="theme-btn">
-                        Buy Ticket<i className="fas fa-arrow-right"></i>
+                        Registration<i className="fas fa-arrow-right"></i>
                       </Link>
-                      <Link to="/" className="theme-btn theme-btn2">
+                      {/* <Link to="/" className="theme-btn theme-btn2">
                         Learn More<i className="fas fa-arrow-right"></i>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className="hero-single"
-            style={sliderBG3}
-          >
+          <div className="hero-single" style={sliderBG3}>
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-lg-7">
@@ -138,10 +128,10 @@ export default function HeroSlider() {
                       data-animation="fadeInDown"
                       data-delay=".25s"
                     >
-                      <h1>25</h1>
+                      <h1>27</h1>
                       <div className="date-content">
-                        <span>May 2024</span>
-                        <p>25/B Milford Road, New York, USA</p>
+                        <span>May 2025</span>
+                        <p>Gorakhpur, Uttar Pradesh, India</p>
                       </div>
                     </div>
                     <h1
@@ -149,12 +139,12 @@ export default function HeroSlider() {
                       data-animation="fadeInRight"
                       data-delay=".50s"
                     >
-                      Digital World <span>Conference</span> Meetup
+                      Celebrating The <span>Power</span> of <span>Words</span>
                     </h1>
                     <p data-animation="fadeInLeft" data-delay=".75s">
-                      There are many variations of passages available but the
-                      majority have suffered alteration in some form by injected
-                      humour.
+                      The Gorakhpur Book Festival, organized by the National Book
+                      Trust, India (under the Ministry of Education, Government
+                      of India)
                     </p>
                     <div
                       className="hero-btn"
@@ -162,11 +152,11 @@ export default function HeroSlider() {
                       data-delay="1s"
                     >
                       <Link to="/" className="theme-btn">
-                        Buy Ticket<i className="fas fa-arrow-right"></i>
+                        Registration<i className="fas fa-arrow-right"></i>
                       </Link>
-                      <Link to="/" className="theme-btn theme-btn2">
+                      {/* <Link to="/" className="theme-btn theme-btn2">
                         Learn More<i className="fas fa-arrow-right"></i>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>

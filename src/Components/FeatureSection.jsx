@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
 import icon1 from "../assets/img/icon/speaker.svg";
 import icon2 from "../assets/img/icon/learn.svg";
@@ -11,7 +12,7 @@ export default function FeatureSection() {
         <div className="container">
           <div className="feature-wrapper">
             <div className="row g-4">
-              <div className="col-md-6 col-lg-3">
+              {/* <div className="col-md-6 col-lg-3">
                 <div
                   className="feature-item wow fadeInUp"
                   data-wow-delay=".25s"
@@ -86,7 +87,7 @@ export default function FeatureSection() {
                     Learn More<i className="fas fa-arrow-right"></i>
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

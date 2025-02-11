@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
-import videoBG from "../assets/img/video/01.jpg";
+import videoBG from "../assets/videoBG.mp4";
 
 export default function VideoSection() {
   const videoBGImg = {
@@ -8,9 +9,24 @@ export default function VideoSection() {
 
   return (
     <>
-      <div className="video-area">
-        <div className="container-fluid px-0">
-          <div className="video-content pb-50" style={videoBGImg}>
+      <div className="video-area position-relative">
+        {/* Background Video */}
+        <video
+          className="position-absolute w-100 h-100 object-fit-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src={videoBG} type="video/mp4" />
+        </video>
+
+        {/* Overlay Content */}
+        <div
+          className="container-fluid px-0 position-relative"
+          style={{ zIndex: 2 }}
+        >
+          <div className="video-content pb-50">
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-lg-8">
@@ -20,8 +36,8 @@ export default function VideoSection() {
                         Latest Video
                       </span>
                       <h2 className="site-title text-white">
-                        We organize conference for
-                        <span>creative</span> thinking.
+                        We organize conference for <span>creative</span>{" "}
+                        thinking.
                       </h2>
                     </div>
                     <Link to="/" className="theme-btn mt-30">
@@ -31,12 +47,12 @@ export default function VideoSection() {
                 </div>
                 <div className="col-lg-4">
                   <div className="video-wrapper">
-                    <Link
+                    {/* <Link
                       className="play-btn popup-youtube"
                       to="https://www.youtube.com/watch?v=ckHzmP1evNU"
                     >
                       <i className="fas fa-play"></i>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>

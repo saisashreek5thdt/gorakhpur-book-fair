@@ -14,7 +14,7 @@ export default function FooterSocialLinks() {
             </li>
             <li>
               <Link to="/">
-                <i className="fab fa-x-twitter"></i> Twitter
+                <i className="fab fa-x-twitter"></i> X
               </Link>
             </li>
             <li>

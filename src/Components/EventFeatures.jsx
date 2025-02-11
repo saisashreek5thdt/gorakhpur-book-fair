@@ -15,42 +15,49 @@ export default function EventFeatures() {
       imgURL: icon1,
       title: "Vendor",
       desc: "It is a long established fact that a reader will be distracted.",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSe_CBsGMOh5NU6IgrGabtPLCGwpRhZGZ8erNCpYAcl4Q1TVAg/viewform"
     },
     {
       id: 2,
       imgURL: icon2,
       title: "Volunteer",
       desc: "It is a long established fact that a reader will be distracted.",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSePmHdusFo3-doXpJRmMxpmT9aqVweuzQhqn_OGJGcTdV-mLQ/viewform"
     },
     {
       id: 3,
       imgURL: icon3,
       title: "Exhibitor",
       desc: "It is a long established fact that a reader will be distracted.",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSePmHdusFo3-doXpJRmMxpmT9aqVweuzQhqn_OGJGcTdV-mLQ/viewform"
     },
     {
       id: 4,
       imgURL: icon4,
       title: "Visitor",
       desc: "It is a long established fact that a reader will be distracted.",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSfJ6YcEuTFVIB-wCflitmtfX1minVEGO4KrOPR8Fc26vPM7XA/viewform"
     },
     {
       id: 5,
       imgURL: icon1,
       title: "Speaker",
       desc: "It is a long established fact that a reader will be distracted.",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSehWMPA1WSMIC1u54WHSlPRifEf1aP2PF_UBQahAI-SnbqLBw/viewform"
     },
     {
       id: 6,
       imgURL: icon3,
       title: "Author",
       desc: "It is a long established fact that a reader will be distracted.",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSehWMPA1WSMIC1u54WHSlPRifEf1aP2PF_UBQahAI-SnbqLBw/viewform"
     },
     {
       id: 7,
       imgURL: icon2,
       title: "Sponsoror",
       desc: "It is a long established fact that a reader will be distracted.",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLScIajlb9neewUiqRpH6KrDXYsVKT7QXdc1Ioif8frcyuhsm8Q/viewform"
     },
   ];
 
@@ -89,7 +96,7 @@ export default function EventFeatures() {
                         </div>
                         <h4 className="feature-title">{event.title}</h4>
                         <p>{event.desc}</p>
-                        <Link to="/" className="theme-btn mt-20">
+                        <Link to={event.link} className="theme-btn mt-20">
                           Register<i className="fas fa-arrow-right"></i>
                         </Link>
                       </div>

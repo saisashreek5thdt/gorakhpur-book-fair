@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <>
       <div className="header">
-        <div className="header-top">
+        {/* <div className="header-top">
           <div className="container">
             <div className="header-top-wrap">
               <div className="row align-items-center">
@@ -95,7 +95,7 @@ export default function Header() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="main-navigation">
           <nav className="navbar navbar-expand-lg">
             <div className="container position-relative">
@@ -201,6 +201,28 @@ export default function Header() {
                     >
                       FAQ
                     </Link>
+                  </li>
+                  <li className="nav-item dropdown">
+                    <Link
+                      className="nav-link dropdown-toggle"
+                      to="#"
+                      data-bs-toggle="dropdown"
+                    >
+                      <i className="fal fa-globe"></i> 
+                      &nbsp;Language
+                    </Link>
+                    <ul className="dropdown-menu fade-down">
+                      <li>
+                        <Link className="dropdown-item" to="/">
+                          English
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item" to="/">
+                          Hindi
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                   {/* <li className="nav-item dropdown">
                     <Link

@@ -4,7 +4,7 @@ export default function FAQSection() {
       <div className="faq-area py-120">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="faq-right wow fadeInUp" data-wow-delay=".25s">
                 <div className="site-heading mb-3">
                   <span className="site-title-tagline justify-content-start">
@@ -14,7 +14,7 @@ export default function FAQSection() {
                     Solutions for Your <span>Curiosities</span>
                   </h2>
                 </div>
-                <p className="mb-3">
+                {/* <p className="mb-3">
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
                   form, by injected humour, or randomised words which don&apos;t
@@ -26,13 +26,13 @@ export default function FAQSection() {
                   ipsa quae ab illo inventore veritatis et quasi architecto
                   beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
                   quia voluptas sit aspernatur aut odit aut fugit.
-                </p>
+                </p> */}
                 {/* <a href="#" className="theme-btn mt-2">
                   Have Any Question ?
                 </a> */}
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div
                 className="accordion wow fadeInRight"
                 data-wow-delay=".25s"

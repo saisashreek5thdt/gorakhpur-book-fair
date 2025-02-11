@@ -21,9 +21,15 @@ export default function FooterInfo() {
                     <img src={footerLogo} alt="" />
                   </Link>
                   <p className="mb-3">
-                    We are many variations of passages available majority have
-                    suffered in some injected content of a page when looking at
-                    its layout humour words believable.
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113996.60078799856!2d83.4039116!3d26.76371515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991446a0c332489%3A0x1ff3f97fdcc6bfa2!2sGorakhpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1739290642139!5m2!1sen!2sin"
+                      width="100%"
+                      height="250"
+                      style={{ border: 0 }}
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
                   </p>
                   {/* <div className="footer-newsletter">
                     <p>Subscribe Our Newsletter</p>
@@ -57,7 +63,8 @@ export default function FooterInfo() {
               <div className="col-md-6 align-self-center">
                 <p className="copyright-text">
                   &copy; Copyright <span id="date"></span>
-                  <Link to="/"> &nbsp; 5TH Dimension Technologies </Link> All Rights Reserved.
+                  <Link to="/"> &nbsp; 5TH Dimension Technologies </Link> All
+                  Rights Reserved.
                 </p>
               </div>
               <div className="col-md-6 align-self-center">
