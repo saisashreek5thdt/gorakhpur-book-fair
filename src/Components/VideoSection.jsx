@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
-import videoBG from "https://res.cloudinary.com/dydh2rfnk/video/upload/v1739294393/videoBG_ptpduh.mp4";
+//import videoBG from "https://res.cloudinary.com/dydh2rfnk/video/upload/v1739294393/videoBG_ptpduh.mp4";
 
 export default function VideoSection() {
-  const videoBGImg = {
-    backgroundImage: `url(${videoBG})`,
-  };
+  // const videoBGImg = {
+  //   backgroundImage: `url(${videoBG})`,
+  // };
 
   return (
     <>
@@ -18,7 +18,7 @@ export default function VideoSection() {
           muted
           playsInline
         >
-          <source src={videoBG} type="video/mp4" />
+          <source src="https://res.cloudinary.com/dydh2rfnk/video/upload/v1739294393/videoBG_ptpduh.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
