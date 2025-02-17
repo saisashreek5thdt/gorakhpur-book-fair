@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import sidebarLogo from "../assets/img/logo/gorakhpur-logo.png"
+import sidebarLogo from "../assets/img/logo/gorakhpur-logo.png";
 
 export default function SidebarPopup() {
   return (
@@ -52,16 +52,31 @@ export default function SidebarPopup() {
             </div>
             <div className="sidebar-social">
               <h4>Follow Us</h4>
-              <Link to="/">
+              <Link
+                to="https://www.facebook.com/nationalbooktrustindia"
+                target="_blank"
+              >
                 <i className="fab fa-facebook"></i>
               </Link>
-              <Link to="/">
+              <Link
+                to="https://x.com/nbt_india?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                target="_blank"
+              >
                 <i className="fab fa-x-twitter"></i>
               </Link>
-              <Link to="/">
+              <Link
+                to="https://www.instagram.com/nbtindia/?hl=en"
+                target="_blank"
+              >
                 <i className="fab fa-instagram"></i>
               </Link>
-              <Link to="/">
+              <Link to="https://www.youtube.com/user/NBTIndia" target="_blank">
+                <i className="fab fa-youtube"></i>
+              </Link>
+              <Link
+                to="https://in.linkedin.com/company/nationalbooktrustindia"
+                target="_blank"
+              >
                 <i className="fab fa-linkedin"></i>
               </Link>
             </div>
